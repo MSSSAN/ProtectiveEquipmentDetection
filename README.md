@@ -19,8 +19,6 @@
 
 https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
 
-roboflow : ppe-7lymj
-https://app.roboflow.com/ddm-zpaft/ppe-7lymj/models
 
 
 ### 1-2) 과정 및 결과 스냅샷
