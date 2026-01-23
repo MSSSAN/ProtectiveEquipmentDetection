@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
 - Roboflow 라벨링/리라벨링 작업 화면
 
 ![Roboflow Annotation UI](assets/images/roboflow_annotation_ui.png)
-     ⠀‣ instance의 라벨링이 누락돼 있는 경우 바운딩 박스를 쳐 라벨링하고, 또한 바운딩 박스 위치가 어긋난 경우 조정함.
+     ⠀     ‣ instance의 라벨링이 누락돼 있는 경우 바운딩 박스를 쳐 라벨링하고, 또한 바운딩 박스 위치가 어긋난 경우 조정함.
   
 
 - 이미지를 통한 추론 결과 비교
@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
 | ![YOLO inference example](assets/images/inference_yolo_example.jpg) | ![RT-DETR inference example](assets/images/inference_rtdetr_example.jpg) |
 
 
-     ⠀‣ RT-DETR이 작은 오브젝트를 더 잘 탐지하는 경향을 보임.
+     ⠀     ‣ RT-DETR이 작은 오브젝트를 더 잘 탐지하는 경향을 보임.
 
 ---
 
