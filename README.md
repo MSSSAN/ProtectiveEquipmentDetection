@@ -37,7 +37,7 @@ https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
 | ![YOLO inference example](assets/images/inference_yolo_example.jpg) | ![RT-DETR inference example](assets/images/inference_rtdetr_example.jpg) |
 
 
-⠀     ‣ RT-DETR이 작은 오브젝트를 더 잘 탐지하는 경향을 보임.
+⠀      ⠀‣ RT-DETR이 작은 오브젝트를 더 잘 탐지하는 경향을 보임.
 
 ---
 
