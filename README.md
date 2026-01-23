@@ -178,7 +178,7 @@ streamlit run app.py
 
 ---
 
-## 10. Acknowledgements
+## 9. Acknowledgements
 
 - Dataset: Ultralytics Construction PPE (https://docs.ultralytics.com/datasets/detect/construction-ppe/#dataset-yaml)
 - Tools: YOLO11, RT-DETR, Python, Roboflow, Streamlit
