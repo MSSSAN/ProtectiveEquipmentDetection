@@ -23,10 +23,10 @@ https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
 
 ### 1-2) 과정 및 결과 스냅샷
 
-- Roboflow 라벨링/리라벨링 작업 화면
+- Roboflow 작업 화면 예시
 
 ![Roboflow Annotation UI](assets/images/roboflow_annotation_ui.png)
-     ⠀            ⠀‣ instance의 라벨링이 누락돼 있는 경우 바운딩 박스를 쳐 라벨링하고, 또한 바운딩 박스 위치가 어긋난 경우 조정함.
+     ⠀            ⠀‣ instance의 라벨링이 누락돼 있는 경우 바운딩 박스를 쳐 라벨링하고, 바운딩 박스 위치가 어긋난 경우 조정함.
 
   
 
