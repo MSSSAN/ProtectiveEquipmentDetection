@@ -169,14 +169,15 @@ streamlit run app.py
 ## 8. 팀 구성 & 역할
 
 - **공통:** Construction PPE 데이터셋 리라벨링(박스 수작업 조정), 노션 정리
-- **고현석:** RT-DETR v1 학습/튜닝, YOLO v11 베이스라인, 모델별 Val/Test 성능 트래킹
-- **곽주영:** YOLO v11 학습/튜닝, Github 페이지 관리, EDA 보고서(1·2차)
-- **이기은:** 데이터 변환, RT-DETR v2 학습/튜닝
 - **손혁재:** Streamlit 웹앱 제작, Roboflow 데이터셋 관리
+- **고현석:** RT-DETR v1 학습/튜닝, 버전별 성능 트래킹
+- **곽주영:** YOLO v11 학습/튜닝, Github 페이지 관리
+- **이기은:** 데이터 변환, RT-DETR v2 학습/튜닝
+
 
 ---
 
 ## 10. Acknowledgements
 
-- Dataset: Ultralytics Construction PPE
+- Dataset: Ultralytics Construction PPE (https://docs.ultralytics.com/datasets/detect/construction-ppe/#dataset-yaml)
 - Tools: YOLO11, RT-DETR, Python, Roboflow, Streamlit
