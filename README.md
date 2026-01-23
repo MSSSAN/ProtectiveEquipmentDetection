@@ -14,7 +14,7 @@
 
 ## 1. 데모
 
-### 1-1) 웹캠 실시간 데모 (영상 자리)
+### 1-1) 웹캠 실시간 데모
 
 
 https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
