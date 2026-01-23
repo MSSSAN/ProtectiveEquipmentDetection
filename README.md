@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
 
   
 
-- 이미지상 YOLO 및 RT-DETR의 PPE 탐지 (동일한 데이터셋 사용)
+- 이미지상 YOLO 및 RT-DETR의 PPE 탐지 예시 (동일한 데이터셋 사용)
 
 | YOLO | RT-DETR |
 |---|---|
