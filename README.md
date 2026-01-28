@@ -102,9 +102,10 @@ https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
 ### 5-1) 학습 파이프라인(요약)
 
 1. 데이터셋 점검 → 클래스 개수 조정(11개→7개) 및 리라벨링(누락/오표기 박스 수정)
-2. YOLO / RT-DETR 트레이닝 및 최적 파라미터 탐구, 초기 weight 활용해 모델 탑재용 Streamlit 개발 병렬 진행
-3. Validation/Test 성능 비교 & 추론 예시 검증
-4. Streamlit 웹앱에 최적 weight 탑재(최종 산출물)
+2. YOLO / RT-DETR 트레이닝 및 최적 파라미터 탐구
+3. 트레이닝 초기 weight 활용해 모델 탑재용 Streamlit 개발 병렬 진행
+4. Validation/Test 성능 비교 & 추론 예시 검증
+5. Streamlit 웹앱에 최적 weight 탑재(최종 산출물)
 
 ### 5-2) 성능 관찰(정성/정량)
 
