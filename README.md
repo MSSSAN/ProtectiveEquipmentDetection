@@ -129,24 +129,12 @@ https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
 
 > 실제 레포 구조에 맞춰 경로/파일명만 맞추면 됩니다.
 
-```bash
+```
 # 1) 환경 구성
-python -m venv .venv
-source .venv/bin/activate  # (Windows는 .venv\Scripts\activate)
-pip install -r requirements.txt
-
-#1-1) conda 가상환경 사용 및 cuda 버전에 맞는 PyTorch설치(Windows 기반 설명)
-conda activate "virtualEnvironment name"
-pip uninstall -y torch torchvision torchaudio
-
-pip install --index-url https://download.pytorch.org/whl/cu130 torch torchvision torchaudio
-
-#1-2) 설치 확인
-python -c "import torch; print(torch.__version__); print('cuda avail', torch.cuda.is_available()); print('torch cuda', torch.version.cuda); print('gpu', torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'NO GPU')"
-
+pip install streamlit opencv-python pillow ultralytics streamlit-webrtc av torch torchvision
 
 # 2) 실행
-streamlit run app.py
+streamlit run ppe_detection_korean.py
 ```
 
 ---
@@ -155,13 +143,13 @@ streamlit run app.py
 
 ```text
 .
-├─ ppe_detection_korean.py         # Streamlit 엔트리
+├─ ppe_detection_korean.py                         # Streamlit 엔트리
 ├─ weights/
 │  ├─ yolo-v11-s_E50_BS32_Baseline_mAP_0.777.pt    # YOLO 가중치
 │  └─ best_rtdetr_x_oct23_1019am.pt                # RT-DETR(v1) 가중치
 └─ assets/
-   ├─ images/                      # README 이미지
-   └─ videos/                      # README 데모 영상
+   ├─ images/                                      # README 이미지
+   └─ videos/                                      # README 데모 영상
 ```
 
 ---
