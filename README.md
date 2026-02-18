@@ -8,7 +8,7 @@
 
 ## 0. 한 줄 요약
 
-현재 안전관리자가 육안으로 일일이 수행해야 하는 현장 작업자의 보호장비 착용여부 확인 작업을, AI CV 모델 (YOLO11, RT-DETR) 과 웹앱 (Streamlit)을 통한 UI 구현으로 자동화하고, 중앙에서 확인 가능하도록 함.
+현재 안전관리자가 육안으로 일일이 수행해야 하는 현장 작업자의 보호장비 착용여부 확인 작업을, AI CV 모델 (YOLO11, RT-DETR) 과 웹앱 (Streamlit)을 통한 UI 구현으로 자동화가 가능하도록 함.
 
 ---
 
@@ -155,12 +155,10 @@ streamlit run app.py
 
 ```text
 .
-├─ app.py                          # Streamlit 엔트리
+├─ ppe_detection_korean.py         # Streamlit 엔트리
 ├─ weights/
-│  ├─ yolo_best.pt                 # YOLO 가중치
-│  └─ rtdetr_best.pt               # RT-DETR(v1) 가중치
-├─ outputs/                        # 자동생성(비디오 결과물 저장)
-├─ scripts/                        # 학습/평가/변환 스크립트
+│  ├─ yolo-v11-s_E50_BS32_Baseline_mAP_0.777.pt    # YOLO 가중치
+│  └─ best_rtdetr_x_oct23_1019am.pt                # RT-DETR(v1) 가중치
 └─ assets/
    ├─ images/                      # README 이미지
    └─ videos/                      # README 데모 영상
