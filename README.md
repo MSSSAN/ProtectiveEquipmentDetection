@@ -32,7 +32,7 @@ https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
 | YOLO | RT-DETR |
 |---|---|
 | ![YOLO inference example](assets/images/inference_yolo_example.jpg) | ![RT-DETR inference example](assets/images/inference_rtdetr_example.jpg) |
-
+     &emsp;&emsp;\- RT-DETR 모델이 YOLO에 비해 크기가 작은 물체를 더 잘 탐지하는 것을 볼 수 있음.
 
 
 ---
