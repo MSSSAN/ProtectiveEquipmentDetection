@@ -21,6 +21,7 @@ https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
 
 ![Roboflow Annotation UI](assets/images/roboflow_annotation_ui.png)
      - 데이터셋 이미지에서 장갑이 있는 부분은 glove로 라벨링하고, 손가락이 드러난 부분은 no glove로 라벨링함.
+     
      - 바운딩 박스의 위치가 어긋나거나, tight하지 않은 경우 컴퓨터비전 모델의 인식률을 높이기 위해 tight하게 조정함. 
 
   
