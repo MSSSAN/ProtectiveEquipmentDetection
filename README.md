@@ -11,7 +11,11 @@
 ### 1-1) 웹캠을 통한 실시간 PPE 탐지 시연
 
 
-https://github.com/user-attachments/assets/10118e08-5901-4ba4-903f-97f08354e21f
+
+
+https://github.com/user-attachments/assets/d91b2d61-9f39-4b58-9b6b-5c86420cf86d
+
+
 
 
 
